@@ -1,0 +1,1878 @@
+{
+  "metadata": {
+    "title": "Injective Whale Address List",
+    "generated_at": "2026-06-02T13:36:04.272019+00:00",
+    "network": "injective-1 mainnet",
+    "inj_usd_price_used": 7.1,
+    "notes": [
+      "Native trading whales often hold funds in exchange subaccounts; bank balance may be low while still high activity.",
+      "injvaloper addresses are validator operators (staking whales), not trading wallets.",
+      "erc20 addresses are bridged Ethereum holders from public rich lists.",
+      "PODIUM WATCHLIST: use data/injective_whale_addresses_inj1_only.json — only inj1... addresses are valid."
+    ],
+    "sources": [
+      "https://lcd.injective.network",
+      "https://sentry.exchange.grpc-web.injective.network/api/explorer/v1",
+      "https://www.coincarp.com/currencies/injectiveprotocol/richlist/",
+      "https://www.coinlore.com/coin/injective-protocol/richlist"
+    ],
+    "counts": {
+      "total": 181,
+      "native_inj1": 115,
+      "validators": 60,
+      "erc20": 6
+    }
+  },
+  "whales": [
+    {
+      "address": "injvaloper1w3psm8a9td2qz06s46cxss03mz5umxaxegvhhs",
+      "address_type": "injvaloper",
+      "label": "Kraken",
+      "category": "validator",
+      "inj_staked": 3899507.17,
+      "usd_estimate": 27686500.88,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1lsuqpgm8kgwpq96ewyew26xnfwyn3lh3ncrkrk",
+      "address_type": "injvaloper",
+      "label": "Binance Staking",
+      "category": "validator",
+      "inj_staked": 3462489.73,
+      "usd_estimate": 24583677.08,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper134dct56cq5v7uerxcy2cn4m06mqf4dxrlgpp24",
+      "address_type": "injvaloper",
+      "label": "Everstake",
+      "category": "validator",
+      "inj_staked": 3438187.71,
+      "usd_estimate": 24411132.72,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper13v0sulppc8pgtk4907p3vaqgq54vyl9yqmf7av",
+      "address_type": "injvaloper",
+      "label": "Injective Foundation 2",
+      "category": "validator",
+      "inj_staked": 2654171.24,
+      "usd_estimate": 18844615.83,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper19a77dzm2lrxt2gehqca3nyzq077kq7qsgvmrp4",
+      "address_type": "injvaloper",
+      "label": "SCV-Security",
+      "category": "validator",
+      "inj_staked": 2624401.89,
+      "usd_estimate": 18633253.39,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1g4d6dmvnpg7w7yugy6kplndp7jpfmf3krtschp",
+      "address_type": "injvaloper",
+      "label": "Figment",
+      "category": "validator",
+      "inj_staked": 2362037.52,
+      "usd_estimate": 16770466.38,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1xnhwtlx47guamp36wkmnk6h4y7eqqn7jr8xcve",
+      "address_type": "injvaloper",
+      "label": "Injective Foundation",
+      "category": "validator",
+      "inj_staked": 2259259.37,
+      "usd_estimate": 16040741.54,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper10xhy8xurfwts9ckjkq0ga92mrjz9txyygymqzp",
+      "address_type": "injvaloper",
+      "label": "Informal Systems",
+      "category": "validator",
+      "inj_staked": 2167374.48,
+      "usd_estimate": 15388358.8,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1vgu49xjgle9k84smvrwlyuc38u0cakuz7q3a5f",
+      "address_type": "injvaloper",
+      "label": "Cointelegraph Decentralization Guardians",
+      "category": "validator",
+      "inj_staked": 2003365.53,
+      "usd_estimate": 14223895.24,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1grg4uhz47a9sh0ak7kz9zq5fkrv8v4w3grre0k",
+      "address_type": "inj1",
+      "label": "Top delegator to Cointelegraph Decentralization Guardians",
+      "category": "delegator_whale",
+      "inj_staked": 1801264.55,
+      "usd_estimate": 12788978.33,
+      "validator_operator": "injvaloper1vgu49xjgle9k84smvrwlyuc38u0cakuz7q3a5f",
+      "validator_name": "Cointelegraph Decentralization Guardians",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1da0shwz2mcup5rxkykquc9a7mh4s2hkeah9wuc",
+      "address_type": "injvaloper",
+      "label": "FalconX",
+      "category": "validator",
+      "inj_staked": 1776357.35,
+      "usd_estimate": 12612137.21,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1rvqzf9u2uxttmshn302anlknfgsatrh5v7fl7e",
+      "address_type": "injvaloper",
+      "label": "Cosmostation",
+      "category": "validator",
+      "inj_staked": 1761993.47,
+      "usd_estimate": 12510153.65,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1yljq5pdnx84kkg30jfmz6ddu4eyp7twyp4z40f",
+      "address_type": "injvaloper",
+      "label": "Core ONE",
+      "category": "validator",
+      "inj_staked": 1743662.22,
+      "usd_estimate": 12380001.79,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "address_type": "injvaloper",
+      "label": "Kiln",
+      "category": "validator",
+      "inj_staked": 1514732.08,
+      "usd_estimate": 10754597.74,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1rqqpyuka5dxulzjslnzjld2ltcw5095rr0jz07",
+      "address_type": "injvaloper",
+      "label": "Innovating Capital",
+      "category": "validator",
+      "inj_staked": 1444662.66,
+      "usd_estimate": 10257104.91,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper14yeq3lkajldaggj28hmq8xng9xux7x5g46hezv",
+      "address_type": "injvaloper",
+      "label": "Bitwise Onchain Solutions",
+      "category": "validator",
+      "inj_staked": 1371794.55,
+      "usd_estimate": 9739741.3,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1nq37nq79w2j76xj8qhjzcn6vh0wlx0qk2r7zm6",
+      "address_type": "injvaloper",
+      "label": "Solva (CryptoCrew)",
+      "category": "validator",
+      "inj_staked": 1352484.19,
+      "usd_estimate": 9602637.73,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1nm48eujr28u3htqrjumfwhytn63rmca2prtklt",
+      "address_type": "injvaloper",
+      "label": "Nansen | Stake to Stack Points",
+      "category": "validator",
+      "inj_staked": 1242216.67,
+      "usd_estimate": 8819738.37,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper125fkz3mq6qxxpkmphdl3ep92t0d3y9695mhclt",
+      "address_type": "injvaloper",
+      "label": " polkachu.com",
+      "category": "validator",
+      "inj_staked": 1170366.81,
+      "usd_estimate": 8309604.35,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1mlsg82x0mnw88u2teg0kceautjktgcl08tqfs4",
+      "address_type": "injvaloper",
+      "label": "Decentrio-Labs",
+      "category": "validator",
+      "inj_staked": 1115844.56,
+      "usd_estimate": 7922496.41,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper16jkt2gcm8qfxzjj8j6pvyc045ga82pmthz58mp",
+      "address_type": "injvaloper",
+      "label": "Hex Trust",
+      "category": "validator",
+      "inj_staked": 1028151.99,
+      "usd_estimate": 7299879.12,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper10pe4avat38u38yzj5hvnw235uecfff6c73s8fn",
+      "address_type": "injvaloper",
+      "label": "Black Panther | Delegate for Claimdrop",
+      "category": "validator",
+      "inj_staked": 1025709.32,
+      "usd_estimate": 7282536.17,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj154xj4fpxw2yzjlrch2k7wwqaamf9a634n0nvd7",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation",
+      "category": "delegator_whale",
+      "inj_staked": 1019750.04,
+      "usd_estimate": 7240225.26,
+      "validator_operator": "injvaloper1xnhwtlx47guamp36wkmnk6h4y7eqqn7jr8xcve",
+      "validator_name": "Injective Foundation",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1ae4f9ae2d94kwhn6xlshm34f9fl0p0rkwy9wj5",
+      "address_type": "injvaloper",
+      "label": "BitGo by Twinstake",
+      "category": "validator",
+      "inj_staked": 1009672.6,
+      "usd_estimate": 7168675.46,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1uwcg40mte6s2hsnx7rsh70rds4qdytytkcusml",
+      "address_type": "inj1",
+      "label": "Top delegator to BitGo by Twinstake",
+      "category": "delegator_whale",
+      "inj_staked": 1009630.01,
+      "usd_estimate": 7168373.07,
+      "validator_operator": "injvaloper1ae4f9ae2d94kwhn6xlshm34f9fl0p0rkwy9wj5",
+      "validator_name": "BitGo by Twinstake",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1zt0x89kt3jhflyt69l4cpwcxhtgjaxteyhdgdv",
+      "address_type": "injvaloper",
+      "label": "Twinstake",
+      "category": "validator",
+      "inj_staked": 1000121.42,
+      "usd_estimate": 7100862.08,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj152ye2a6v3j2drct4hta9z4tkljngfacp39e5t7",
+      "address_type": "inj1",
+      "label": "Top delegator to Twinstake",
+      "category": "delegator_whale",
+      "inj_staked": 1000000.0,
+      "usd_estimate": 7100000.0,
+      "validator_operator": "injvaloper1zt0x89kt3jhflyt69l4cpwcxhtgjaxteyhdgdv",
+      "validator_name": "Twinstake",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper14w4qu60azpz5zkw5yrcvmaxqh6xg5sny7qm6rm",
+      "address_type": "injvaloper",
+      "label": "Allnodes",
+      "category": "validator",
+      "inj_staked": 950748.14,
+      "usd_estimate": 6750311.82,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "address_type": "injvaloper",
+      "label": "miPool",
+      "category": "validator",
+      "inj_staked": 918002.5,
+      "usd_estimate": 6517817.75,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1esud09zs5754g5nlkmrgxsfdj276xm64cgmd3w",
+      "address_type": "injvaloper",
+      "label": "Imperator.co",
+      "category": "validator",
+      "inj_staked": 917049.21,
+      "usd_estimate": 6511049.37,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "address_type": "injvaloper",
+      "label": "Republic",
+      "category": "validator",
+      "inj_staked": 844879.51,
+      "usd_estimate": 5998644.55,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1hsxaln75wjs033t3spd8a0gawl4jvxawn6v849",
+      "address_type": "injvaloper",
+      "label": "Citadel.one",
+      "category": "validator",
+      "inj_staked": 752043.79,
+      "usd_estimate": 5339510.91,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1xwsnq88kc8wcrp34qenxf3dvhl5n02yj93u755",
+      "address_type": "injvaloper",
+      "label": "Smart Stake",
+      "category": "validator",
+      "inj_staked": 724572.39,
+      "usd_estimate": 5144463.96,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1acgud5qpn3frwzjrayqcdsdr9vkl3p6hrz34ts",
+      "address_type": "injvaloper",
+      "label": " AutoStake \ud83d\udee1\ufe0f Slash Protected",
+      "category": "validator",
+      "inj_staked": 697505.62,
+      "usd_estimate": 4952289.91,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj10fmfess0kxw948yxyn47f47l4wgc3pl53z4s27",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation",
+      "category": "delegator_whale",
+      "inj_staked": 688977.5,
+      "usd_estimate": 4891740.24,
+      "validator_operator": "injvaloper1xnhwtlx47guamp36wkmnk6h4y7eqqn7jr8xcve",
+      "validator_name": "Injective Foundation",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1zpy3qf7us3m0pxpqkp72gzjv55t70huy33t47x",
+      "address_type": "injvaloper",
+      "label": "B-Harvest",
+      "category": "validator",
+      "inj_staked": 651664.85,
+      "usd_estimate": 4626820.41,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1ffsdugrhfzdyxltjve8v68n6aazyc6p97uhfn0",
+      "address_type": "injvaloper",
+      "label": "Helios Staking",
+      "category": "validator",
+      "inj_staked": 631660.42,
+      "usd_estimate": 4484788.98,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1kdrcwag3m6ult3eftr9g2w0me7yrmp8lraey87",
+      "address_type": "inj1",
+      "label": "Top delegator to miPool",
+      "category": "delegator_whale",
+      "inj_staked": 620000.0,
+      "usd_estimate": 4402000.0,
+      "validator_operator": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "validator_name": "miPool",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1f2kdg34689x93cvw2y59z7y46dvz2fk8lhddfz",
+      "address_type": "injvaloper",
+      "label": "HighStakes.ch | Daily Airdrops",
+      "category": "validator",
+      "inj_staked": 612921.36,
+      "usd_estimate": 4351741.66,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper177zqwtsnuhax28w5xpmf33wsl7l2xxf6y6xshc",
+      "address_type": "injvaloper",
+      "label": "NTT DOCOMO GLOBAL",
+      "category": "validator",
+      "inj_staked": 550416.47,
+      "usd_estimate": 3907956.93,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1fqrdtx7pyps6eytn3356j9cs4f8zl0eevlt3rt",
+      "address_type": "injvaloper",
+      "label": "Crosnest",
+      "category": "validator",
+      "inj_staked": 508757.43,
+      "usd_estimate": 3612177.75,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1845wspsvm3z95a2zycz3t49gn7celq48dlyscc",
+      "address_type": "injvaloper",
+      "label": "Keplr",
+      "category": "validator",
+      "inj_staked": 505530.95,
+      "usd_estimate": 3589269.71,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1hlrw0drgnxg63r26lc7yr5y2wzn4nfavqspqch",
+      "address_type": "inj1",
+      "label": "Top delegator to Hex Trust",
+      "category": "delegator_whale",
+      "inj_staked": 501574.33,
+      "usd_estimate": 3561177.74,
+      "validator_operator": "injvaloper16jkt2gcm8qfxzjj8j6pvyc045ga82pmthz58mp",
+      "validator_name": "Hex Trust",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1dnuyzgsula4xaywugc77zqlpuac5th8zfrj2cz",
+      "address_type": "inj1",
+      "label": "Top delegator to Hex Trust",
+      "category": "delegator_whale",
+      "inj_staked": 501237.0,
+      "usd_estimate": 3558782.7,
+      "validator_operator": "injvaloper16jkt2gcm8qfxzjj8j6pvyc045ga82pmthz58mp",
+      "validator_name": "Hex Trust",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1nngrhnm65wm8pu7wkah6hfs3vpd0xw463ydd65",
+      "address_type": "injvaloper",
+      "label": "Deutsche Telekom",
+      "category": "validator",
+      "inj_staked": 458784.01,
+      "usd_estimate": 3257366.47,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "address_type": "injvaloper",
+      "label": "KoreaUniversity BRI",
+      "category": "validator",
+      "inj_staked": 432958.38,
+      "usd_estimate": 3074004.52,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper155yk4wfn0xqye80exlsr6hu4qdfsvsgwg3jckk",
+      "address_type": "injvaloper",
+      "label": " Lavender.Five Nodes \ud83d\udc1d",
+      "category": "validator",
+      "inj_staked": 426045.23,
+      "usd_estimate": 3024921.15,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper17mudupc8qlwpnegqwulz6ajlkhsfta6zg2wg55",
+      "address_type": "injvaloper",
+      "label": "Dynamo DeFi",
+      "category": "validator",
+      "inj_staked": 409996.7,
+      "usd_estimate": 2910976.58,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper14346l6ujfwsp5kcs2cch7flulcrlqtl0pm7esp",
+      "address_type": "injvaloper",
+      "label": "NextFinanceTech",
+      "category": "validator",
+      "inj_staked": 400001.0,
+      "usd_estimate": 2840007.11,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1wsklxz4cqvn0e4h2q8aj6fgt2u2z8u2qp5dx3a",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation",
+      "category": "delegator_whale",
+      "inj_staked": 400000.0,
+      "usd_estimate": 2840000.0,
+      "validator_operator": "injvaloper1xnhwtlx47guamp36wkmnk6h4y7eqqn7jr8xcve",
+      "validator_name": "Injective Foundation",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1vumvzchlgfsu9fnj5xn2zpf7w888sdmjuu33qe",
+      "address_type": "injvaloper",
+      "label": "Google Cloud",
+      "category": "validator",
+      "inj_staked": 399818.3,
+      "usd_estimate": 2838709.92,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1ntn4j2lsu3k60g8xj9pqshqvdj2q5tygyvczpy",
+      "address_type": "injvaloper",
+      "label": "Ledger by Chorus One",
+      "category": "validator",
+      "inj_staked": 380429.31,
+      "usd_estimate": 2701048.13,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1uvc7g7ssjgkuv4gj32pj7me5flty2mcvnwwksc",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 362293.57,
+      "usd_estimate": 2572284.34,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1g9ffn2auvh8x5vwgr6s6c40s8ktwkhxf3fqkvw",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 357049.8,
+      "usd_estimate": 2535053.56,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1cdhqf4anxvx2m79pmj6g2s47k7syw54halp2kd",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 353626.7,
+      "usd_estimate": 2510749.55,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1an6hyf4h2au53aa3tuy6yjjr4edsd2xvg5kc2p",
+      "address_type": "injvaloper",
+      "label": "TTT VN",
+      "category": "validator",
+      "inj_staked": 341839.01,
+      "usd_estimate": 2427057.01,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1qzu3s7uzydpj0vcgrgp04j7u48pgkesy7zl7t3",
+      "address_type": "injvaloper",
+      "label": "Neptune Foundation",
+      "category": "validator",
+      "inj_staked": 306188.21,
+      "usd_estimate": 2173936.29,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1nj2fs96zjs4zln4cxuhha2jxhcmzqj5mprmugx",
+      "address_type": "injvaloper",
+      "label": "Mblock",
+      "category": "validator",
+      "inj_staked": 300481.01,
+      "usd_estimate": 2133415.18,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1guh04j8x8fxpax3ghf7wlf798xey8576kyfwza",
+      "address_type": "injvaloper",
+      "label": "KDAC",
+      "category": "validator",
+      "inj_staked": 299978.39,
+      "usd_estimate": 2129846.57,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1trhxpuzkl30wh4d89rkcdkv9h5mauzq6fxu3ex",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 299745.05,
+      "usd_estimate": 2128189.83,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1dyntafvjynns5zyltwgyktej0y5zt84y3npkt4",
+      "address_type": "injvaloper",
+      "label": "Trust Nodes",
+      "category": "validator",
+      "inj_staked": 269603.67,
+      "usd_estimate": 1914186.06,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1x997dy6ka7y8u0r56yk2k83llspy33yet9zcnq",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 260219.94,
+      "usd_estimate": 1847561.55,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1xmdfy2cvjuynhf74lfna6qn3k2qfq7afjehd8h",
+      "address_type": "inj1",
+      "label": "Top delegator to Decentrio-Labs",
+      "category": "delegator_whale",
+      "inj_staked": 248404.36,
+      "usd_estimate": 1763670.95,
+      "validator_operator": "injvaloper1mlsg82x0mnw88u2teg0kceautjktgcl08tqfs4",
+      "validator_name": "Decentrio-Labs",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1kwf763rngxzt4wr4c37hnsj5768km8vvzy35ks",
+      "address_type": "injvaloper",
+      "label": "Talis Protocol",
+      "category": "validator",
+      "inj_staked": 200338.68,
+      "usd_estimate": 1422404.63,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1zgwhs3nevrse42zgrqme9l8a6gst2lxgvv3mua",
+      "address_type": "inj1",
+      "label": "Top delegator to Kraken",
+      "category": "delegator_whale",
+      "inj_balance": 5227.3272,
+      "usd_estimate": 1417161.42,
+      "source": "injective_lcd_delegations",
+      "inj_staked": 199600.2,
+      "validator_operator": "injvaloper1w3psm8a9td2qz06s46cxss03mz5umxaxegvhhs",
+      "validator_name": "Kraken"
+    },
+    {
+      "address": "injvaloper1v2wjf06nutm9phvh5hgc3twpst9q50y4f8ckd5",
+      "address_type": "injvaloper",
+      "label": "PRYZM | StakeDrop",
+      "category": "validator",
+      "inj_staked": 116847.96,
+      "usd_estimate": 829620.51,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1404m8x8sdk8mf75z8jjasu32mkq0du4wlhhkqz",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 111330.01,
+      "usd_estimate": 790443.04,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1h37jxecva2xgm78ejw3683vrw932j6nuzgdxgj",
+      "address_type": "injvaloper",
+      "label": "Talis Protocol (legacy)",
+      "category": "validator",
+      "inj_staked": 103909.34,
+      "usd_estimate": 737756.32,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1v6qnwjj8txzdgfjuuvwhtmg55sxd08d6ckjyvr",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 50200.0,
+      "usd_estimate": 356420.0,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1ee7xnhczhvu064utmdn48sh0wx7zq3pgy6frgm",
+      "address_type": "injvaloper",
+      "label": "Stakecito Labs",
+      "category": "validator",
+      "inj_staked": 50035.13,
+      "usd_estimate": 355249.41,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj12fs4vskm05l6mcgvsyg8a0stew0jkpkwke0k2a",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 50000.0,
+      "usd_estimate": 355000.0,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj138qv6vejcwlc0dly4s6ws82luyyzmrl8k5tr3d",
+      "address_type": "inj1",
+      "label": "Top delegator to miPool",
+      "category": "delegator_whale",
+      "inj_staked": 45000.0,
+      "usd_estimate": 319500.0,
+      "validator_operator": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "validator_name": "miPool",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q2ru0yxsukha0z8d2v07r3nxau2vtfq6w7udq0",
+      "address_type": "inj1",
+      "label": "Top delegator to miPool",
+      "category": "delegator_whale",
+      "inj_staked": 43000.0,
+      "usd_estimate": 305300.0,
+      "validator_operator": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "validator_name": "miPool",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj10z5qxf99q90746uswm5kcumyugjgkvkpdztzwe",
+      "address_type": "inj1",
+      "label": "Top delegator to miPool",
+      "category": "delegator_whale",
+      "inj_staked": 43000.0,
+      "usd_estimate": 305300.0,
+      "validator_operator": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "validator_name": "miPool",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1rrj90wzdav025g8c4z8c234scky0xw663fpzzl",
+      "address_type": "inj1",
+      "label": "Top delegator to miPool",
+      "category": "delegator_whale",
+      "inj_staked": 42000.0,
+      "usd_estimate": 298200.0,
+      "validator_operator": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "validator_name": "miPool",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1rdewkmefwgfnja2xz2qyd2yrfyjz3ampa03yjn",
+      "address_type": "inj1",
+      "label": "Top delegator to miPool",
+      "category": "delegator_whale",
+      "inj_staked": 42000.0,
+      "usd_estimate": 298200.0,
+      "validator_operator": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "validator_name": "miPool",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1cjen0femq9kc83zuxevltmwfh8kynny9v97wcj",
+      "address_type": "inj1",
+      "label": "Top delegator to miPool",
+      "category": "delegator_whale",
+      "inj_staked": 42000.0,
+      "usd_estimate": 298200.0,
+      "validator_operator": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "validator_name": "miPool",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1xmq3j3mwwpz9l2zzw789t5wzj8n3hn5m94e39v",
+      "address_type": "inj1",
+      "label": "Top delegator to miPool",
+      "category": "delegator_whale",
+      "inj_staked": 41000.0,
+      "usd_estimate": 291100.0,
+      "validator_operator": "injvaloper1f68rd44mhx5lu9nz4lkq9wjeucj0gcja66sy8l",
+      "validator_name": "miPool",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1m4pj2y9qrm77m9gsa8uu7xj6xjyy7du5hg2t2d",
+      "address_type": "injvaloper",
+      "label": "Frens (\ud83e\udd1d,\ud83e\udd1d)",
+      "category": "validator",
+      "inj_staked": 35654.04,
+      "usd_estimate": 253143.67,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj13gq2z24ztxqsmd9a68ha6mjz4la2j4gw45vg0g",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 29000.0,
+      "usd_estimate": 205900.0,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qqh605e7a8c37uk7f7s3wzvxm7k3fa82k0nnsl",
+      "address_type": "inj1",
+      "label": "Top delegator to Binance Staking",
+      "category": "delegator_whale",
+      "inj_staked": 26455.0,
+      "usd_estimate": 187830.5,
+      "validator_operator": "injvaloper1lsuqpgm8kgwpq96ewyew26xnfwyn3lh3ncrkrk",
+      "validator_name": "Binance Staking",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1mwerm24kce7dcl59t6n0caw7c8zxgkrjj9svwj",
+      "address_type": "injvaloper",
+      "label": "Stakely.io - Please Redelegate",
+      "category": "validator",
+      "inj_staked": 22747.58,
+      "usd_estimate": 161507.84,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1hkjsxadg0a0dj5pwdyfnf8qm0az6wcxcwhdnry",
+      "address_type": "injvaloper",
+      "label": "PartnerStaking | Timeworx.io Airdrop",
+      "category": "validator",
+      "inj_staked": 21894.26,
+      "usd_estimate": 155449.22,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper17dt0hpykufxjrc7fh8rxwgv6z9kx8vlgg0qqrs",
+      "address_type": "injvaloper",
+      "label": "Dojo | Delegate for Airdrop",
+      "category": "validator",
+      "inj_staked": 20650.4,
+      "usd_estimate": 146617.85,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1py4zc7qnky0lqggk6lwxklqck6zrg562n2mxyg",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 18452.0,
+      "usd_estimate": 131009.2,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1zy5ufk2aluhyup57j0y3ugm68s3lz9nfw8v30r",
+      "address_type": "injvaloper",
+      "label": "Atomic Nodes",
+      "category": "validator",
+      "inj_staked": 16886.6,
+      "usd_estimate": 119894.87,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper15vlkdnu2c0k0gaclgycnyjm7c5f3hsde034f5p",
+      "address_type": "injvaloper",
+      "label": "PFC - Plan For Chaos",
+      "category": "validator",
+      "inj_staked": 14670.45,
+      "usd_estimate": 104160.2,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1wvhk7xhzf9kus9a4tpa6v8vhuqvm265rz7zd6n",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 13587.09,
+      "usd_estimate": 96468.34,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "injvaloper1e84fr6cxgcflv3fc9ey6n8425au7zx6wsztrle",
+      "address_type": "injvaloper",
+      "label": "POSTHUMAN \ud83e\uddec StakeDrop",
+      "category": "validator",
+      "inj_staked": 12534.93,
+      "usd_estimate": 88997.97,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "injvaloper1r3lgsyq49zvl36cnevjx3q6u2ep897rws9hauk",
+      "address_type": "injvaloper",
+      "label": "StakeLab.zone",
+      "category": "validator",
+      "inj_staked": 11979.78,
+      "usd_estimate": 85056.43,
+      "source": "injective_lcd_staking"
+    },
+    {
+      "address": "inj1ruwh73qzrtlwvjt49yvut4ywrafed8ye3j04ay",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 10087.51,
+      "usd_estimate": 71621.35,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1p2m8zla4t6ra3dyawk5ue285r9sjc58k0jgv9p",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation 2",
+      "category": "delegator_whale",
+      "inj_staked": 10000.0,
+      "usd_estimate": 71000.0,
+      "validator_operator": "injvaloper13v0sulppc8pgtk4907p3vaqgq54vyl9yqmf7av",
+      "validator_name": "Injective Foundation 2",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1lk8wevrcuhsa2r3cep0kge6lttsmyjc5hc8k6j",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 9471.53,
+      "usd_estimate": 67247.86,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qqsd6jt2ky2mwwfl0u7lfczszuqrd4kgk6x3tg",
+      "address_type": "inj1",
+      "label": "Top delegator to Figment",
+      "category": "delegator_whale",
+      "inj_staked": 9000.0,
+      "usd_estimate": 63900.0,
+      "validator_operator": "injvaloper1g4d6dmvnpg7w7yugy6kplndp7jpfmf3krtschp",
+      "validator_name": "Figment",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1chfv9v9tcuap3c3zf24x5mgjk0x45qezs2lc7q",
+      "address_type": "inj1",
+      "label": "Top delegator to Hex Trust",
+      "category": "delegator_whale",
+      "inj_staked": 8025.0,
+      "usd_estimate": 56977.5,
+      "validator_operator": "injvaloper16jkt2gcm8qfxzjj8j6pvyc045ga82pmthz58mp",
+      "validator_name": "Hex Trust",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1gkdwszhjunsxg9ukt58pdkjlpfgz2r2p93wx5l",
+      "address_type": "inj1",
+      "label": "Top delegator to Hex Trust",
+      "category": "delegator_whale",
+      "inj_staked": 7775.0,
+      "usd_estimate": 55202.5,
+      "validator_operator": "injvaloper16jkt2gcm8qfxzjj8j6pvyc045ga82pmthz58mp",
+      "validator_name": "Hex Trust",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj19m5mnvx5ul482n8n9lcjyqnxr9jfu9gpqc5h29",
+      "address_type": "inj1",
+      "label": "Top delegator to Kraken",
+      "category": "delegator_whale",
+      "inj_staked": 7029.02,
+      "usd_estimate": 49906.02,
+      "validator_operator": "injvaloper1w3psm8a9td2qz06s46cxss03mz5umxaxegvhhs",
+      "validator_name": "Kraken",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1p8z99lcul38vntv8yzfku5vfpk3sesuf4l5n3g",
+      "address_type": "inj1",
+      "label": "Top delegator to Informal Systems",
+      "category": "delegator_whale",
+      "inj_staked": 6800.0,
+      "usd_estimate": 48280.0,
+      "validator_operator": "injvaloper10xhy8xurfwts9ckjkq0ga92mrjz9txyygymqzp",
+      "validator_name": "Informal Systems",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1yktvmkn90judcmx954ye2dafpk8d5emt28ql6j",
+      "address_type": "inj1",
+      "label": "Top delegator to Core ONE",
+      "category": "delegator_whale",
+      "inj_staked": 6750.0,
+      "usd_estimate": 47925.0,
+      "validator_operator": "injvaloper1yljq5pdnx84kkg30jfmz6ddu4eyp7twyp4z40f",
+      "validator_name": "Core ONE",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q83z3e877c9kgrh4hu8fqhsx8lhnvenre2l2zz",
+      "address_type": "inj1",
+      "label": "Top delegator to Smart Stake",
+      "category": "delegator_whale",
+      "inj_staked": 5489.93,
+      "usd_estimate": 38978.48,
+      "validator_operator": "injvaloper1xwsnq88kc8wcrp34qenxf3dvhl5n02yj93u755",
+      "validator_name": "Smart Stake",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qzf0m6xvwcg6m7lwdput2ngv6vr6ddsmnk69dw",
+      "address_type": "inj1",
+      "label": "Top delegator to FalconX",
+      "category": "delegator_whale",
+      "inj_staked": 5364.0,
+      "usd_estimate": 38084.4,
+      "validator_operator": "injvaloper1da0shwz2mcup5rxkykquc9a7mh4s2hkeah9wuc",
+      "validator_name": "FalconX",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj18xyev2h6d3rrx068as7qd54euj9j48up2g8d5a",
+      "address_type": "inj1",
+      "label": "Top delegator to Kraken",
+      "category": "delegator_whale",
+      "inj_staked": 5110.82,
+      "usd_estimate": 36286.79,
+      "validator_operator": "injvaloper1w3psm8a9td2qz06s46cxss03mz5umxaxegvhhs",
+      "validator_name": "Kraken",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1g88fz62cd3n5tgtadecc9rsnpuvn2rxur99mrt",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 4570.0,
+      "usd_estimate": 32447.0,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj19vrdjr9a2qlpxhh77nl2fs7vtszhnzpv9lfg0e",
+      "address_type": "inj1",
+      "label": "Top delegator to Nansen | Stake to Stack Points",
+      "category": "delegator_whale",
+      "inj_staked": 4144.45,
+      "usd_estimate": 29425.6,
+      "validator_operator": "injvaloper1nm48eujr28u3htqrjumfwhytn63rmca2prtklt",
+      "validator_name": "Nansen | Stake to Stack Points",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q5xt3jegm2t4v5zpn0ngfju0q289v25azalsv8",
+      "address_type": "inj1",
+      "label": "Top delegator to SCV-Security",
+      "category": "delegator_whale",
+      "inj_staked": 4000.02,
+      "usd_estimate": 28400.14,
+      "validator_operator": "injvaloper19a77dzm2lrxt2gehqca3nyzq077kq7qsgvmrp4",
+      "validator_name": "SCV-Security",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1s8rdecc07xg20968qd8qg5fp9k8up8nnthhs5s",
+      "address_type": "inj1",
+      "label": "Top delegator to Dynamo DeFi",
+      "category": "delegator_whale",
+      "inj_staked": 3921.52,
+      "usd_estimate": 27842.77,
+      "validator_operator": "injvaloper17mudupc8qlwpnegqwulz6ajlkhsfta6zg2wg55",
+      "validator_name": "Dynamo DeFi",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj128tqsxe0haaptypz7fjt2ateyrrg9kq7ys4y69",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 3629.9,
+      "usd_estimate": 25772.29,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qf3ym8lfn97kx4emtvrv6vg75fxq28h6r6t5gw",
+      "address_type": "inj1",
+      "label": "Top delegator to Cosmostation",
+      "category": "delegator_whale",
+      "inj_staked": 3106.0,
+      "usd_estimate": 22052.6,
+      "validator_operator": "injvaloper1rvqzf9u2uxttmshn302anlknfgsatrh5v7fl7e",
+      "validator_name": "Cosmostation",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1tr3tngl5cexp7ts4rj6cf4rkrv9vcfs4ykqxjz",
+      "address_type": "inj1",
+      "label": "Top delegator to Kiln",
+      "category": "delegator_whale",
+      "inj_staked": 3000.0,
+      "usd_estimate": 21300.0,
+      "validator_operator": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
+      "validator_name": "Kiln",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1zttm9cc80exy5tp5ytavlzjyvjwa834afxkum0",
+      "address_type": "inj1",
+      "label": "Top delegator to Core ONE",
+      "category": "delegator_whale",
+      "inj_staked": 2500.0,
+      "usd_estimate": 17750.0,
+      "validator_operator": "injvaloper1yljq5pdnx84kkg30jfmz6ddu4eyp7twyp4z40f",
+      "validator_name": "Core ONE",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj17ewnrr6tq49y2lmyy2t4u8whjfv2eqptqx2862",
+      "address_type": "inj1",
+      "label": "Top delegator to Hex Trust",
+      "category": "delegator_whale",
+      "inj_staked": 2417.34,
+      "usd_estimate": 17163.11,
+      "validator_operator": "injvaloper16jkt2gcm8qfxzjj8j6pvyc045ga82pmthz58mp",
+      "validator_name": "Hex Trust",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qp05tjxh3suq60lnkcwn79mxawg4ffkd74vf06",
+      "address_type": "inj1",
+      "label": "Top delegator to Solva (CryptoCrew)",
+      "category": "delegator_whale",
+      "inj_staked": 2130.0,
+      "usd_estimate": 15123.0,
+      "validator_operator": "injvaloper1nq37nq79w2j76xj8qhjzcn6vh0wlx0qk2r7zm6",
+      "validator_name": "Solva (CryptoCrew)",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q0j20cvvuwpm7wm4vl2glwh69a4kscehlaqq60",
+      "address_type": "inj1",
+      "label": "Top delegator to Kraken",
+      "category": "delegator_whale",
+      "inj_staked": 2059.6,
+      "usd_estimate": 14623.16,
+      "validator_operator": "injvaloper1w3psm8a9td2qz06s46cxss03mz5umxaxegvhhs",
+      "validator_name": "Kraken",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1975v0ry8naz8yxmf4xactzckmryz5wmls7rfx7",
+      "address_type": "inj1",
+      "label": "Top delegator to Kraken",
+      "category": "delegator_whale",
+      "inj_staked": 1996.64,
+      "usd_estimate": 14176.15,
+      "validator_operator": "injvaloper1w3psm8a9td2qz06s46cxss03mz5umxaxegvhhs",
+      "validator_name": "Kraken",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1a5zncfceyjyly2hy524mtscvr5hrx6rthvh8q2",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 1734.5,
+      "usd_estimate": 12314.94,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1tm2vq0skhg3ujkd06mk84nc9wh9wu5u09p34he",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 1666.67,
+      "usd_estimate": 11833.36,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1y6eqs4fmml80rsg22u7ghz5u699xk6etz5d67c",
+      "address_type": "inj1",
+      "label": "Top delegator to Kraken",
+      "category": "delegator_whale",
+      "inj_staked": 1600.0,
+      "usd_estimate": 11360.0,
+      "validator_operator": "injvaloper1w3psm8a9td2qz06s46cxss03mz5umxaxegvhhs",
+      "validator_name": "Kraken",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qtspqu859wlxkzx6x6fgpaqm7qt6ph0tw4sa4l",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation 2",
+      "category": "delegator_whale",
+      "inj_staked": 1548.0,
+      "usd_estimate": 10990.8,
+      "validator_operator": "injvaloper13v0sulppc8pgtk4907p3vaqgq54vyl9yqmf7av",
+      "validator_name": "Injective Foundation 2",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1dwzlvt332dalv8rpx2gl0fj79jeh5eygpuc4p7",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 1511.09,
+      "usd_estimate": 10728.76,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1eguakdadd77vanma2cd9wc2flvdurn9c9xvzyr",
+      "address_type": "inj1",
+      "label": "Top delegator to Deutsche Telekom",
+      "category": "delegator_whale",
+      "inj_staked": 1418.12,
+      "usd_estimate": 10068.65,
+      "validator_operator": "injvaloper1nngrhnm65wm8pu7wkah6hfs3vpd0xw463ydd65",
+      "validator_name": "Deutsche Telekom",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1v4848feqsrrmmec7uhsvrnux2jk6yljkcl7rw4",
+      "address_type": "inj1",
+      "label": "Top delegator to Deutsche Telekom",
+      "category": "delegator_whale",
+      "inj_staked": 1398.42,
+      "usd_estimate": 9928.81,
+      "validator_operator": "injvaloper1nngrhnm65wm8pu7wkah6hfs3vpd0xw463ydd65",
+      "validator_name": "Deutsche Telekom",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q0tz0pq598u208r5hvc697v0gwpjc4ukhzfstf",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation 2",
+      "category": "delegator_whale",
+      "inj_staked": 1386.63,
+      "usd_estimate": 9845.07,
+      "validator_operator": "injvaloper13v0sulppc8pgtk4907p3vaqgq54vyl9yqmf7av",
+      "validator_name": "Injective Foundation 2",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qsztzg9yqphvqlcq3yzm0hr2zs0dmk66acvr6s",
+      "address_type": "inj1",
+      "label": "Top delegator to SCV-Security",
+      "category": "delegator_whale",
+      "inj_staked": 1351.24,
+      "usd_estimate": 9593.84,
+      "validator_operator": "injvaloper19a77dzm2lrxt2gehqca3nyzq077kq7qsgvmrp4",
+      "validator_name": "SCV-Security",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q6ngcg0gqvajr5ww2kxapj5y4d7g46cv6xsvyr",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation 2",
+      "category": "delegator_whale",
+      "inj_staked": 1282.88,
+      "usd_estimate": 9108.48,
+      "validator_operator": "injvaloper13v0sulppc8pgtk4907p3vaqgq54vyl9yqmf7av",
+      "validator_name": "Injective Foundation 2",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1v93990v7flpgwfl0eeu45m3p3dkmsu4gaddfca",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 1245.43,
+      "usd_estimate": 8842.53,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qzpcruwwuj0v9expnk8s9v9hztmrs5uakewhc2",
+      "address_type": "inj1",
+      "label": "Top delegator to Binance Staking",
+      "category": "delegator_whale",
+      "inj_staked": 1233.02,
+      "usd_estimate": 8754.41,
+      "validator_operator": "injvaloper1lsuqpgm8kgwpq96ewyew26xnfwyn3lh3ncrkrk",
+      "validator_name": "Binance Staking",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj16ujqtje2en9ns59hrcjfu2885epsrvus9czdw8ljtd45whxucs5srrejpa",
+      "address_type": "inj1",
+      "label": "Top delegator to Cointelegraph Decentralization Guardians",
+      "category": "delegator_whale",
+      "inj_staked": 1182.78,
+      "usd_estimate": 8397.74,
+      "validator_operator": "injvaloper1vgu49xjgle9k84smvrwlyuc38u0cakuz7q3a5f",
+      "validator_name": "Cointelegraph Decentralization Guardians",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q9d2c2kvuk38myg47zae7st0v9x82cwry9g0t8",
+      "address_type": "inj1",
+      "label": "Top delegator to Imperator.co",
+      "category": "delegator_whale",
+      "inj_staked": 1161.99,
+      "usd_estimate": 8250.12,
+      "validator_operator": "injvaloper1esud09zs5754g5nlkmrgxsfdj276xm64cgmd3w",
+      "validator_name": "Imperator.co",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj157kkajxv0vwntjv729c245kzt2la3ktyw96wh0",
+      "address_type": "inj1",
+      "label": "Top delegator to FalconX",
+      "category": "delegator_whale",
+      "inj_staked": 1134.0,
+      "usd_estimate": 8051.4,
+      "validator_operator": "injvaloper1da0shwz2mcup5rxkykquc9a7mh4s2hkeah9wuc",
+      "validator_name": "FalconX",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1fpf4d4jal956vqlv09lzplvnhvs0a8k6dqdpxa",
+      "address_type": "inj1",
+      "label": "Top delegator to Dynamo DeFi",
+      "category": "delegator_whale",
+      "inj_staked": 1100.0,
+      "usd_estimate": 7810.0,
+      "validator_operator": "injvaloper17mudupc8qlwpnegqwulz6ajlkhsfta6zg2wg55",
+      "validator_name": "Dynamo DeFi",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qpuc3ljuzym59jwvv5vffsvx42uwkul0zdn2ym",
+      "address_type": "inj1",
+      "label": "Top delegator to Figment",
+      "category": "delegator_whale",
+      "inj_staked": 1093.36,
+      "usd_estimate": 7762.86,
+      "validator_operator": "injvaloper1g4d6dmvnpg7w7yugy6kplndp7jpfmf3krtschp",
+      "validator_name": "Figment",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q5run9hwj9l27gevu57esu3ululw4rzjfttjv0",
+      "address_type": "inj1",
+      "label": "Top delegator to SCV-Security",
+      "category": "delegator_whale",
+      "inj_staked": 1078.0,
+      "usd_estimate": 7653.8,
+      "validator_operator": "injvaloper19a77dzm2lrxt2gehqca3nyzq077kq7qsgvmrp4",
+      "validator_name": "SCV-Security",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qz03asmhpqwaj7fu53j44my295jpal4fuha5kf",
+      "address_type": "inj1",
+      "label": "Top delegator to SCV-Security",
+      "category": "delegator_whale",
+      "inj_staked": 1055.86,
+      "usd_estimate": 7496.6,
+      "validator_operator": "injvaloper19a77dzm2lrxt2gehqca3nyzq077kq7qsgvmrp4",
+      "validator_name": "SCV-Security",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1ryyayhruwlhzg4uew6gr2s9tcazyle40l0069h",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 1034.17,
+      "usd_estimate": 7342.63,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1gf4kunegkf763c9cjwt2hcc25k6cqamzax6exr",
+      "address_type": "inj1",
+      "label": "Top delegator to Core ONE",
+      "category": "delegator_whale",
+      "inj_staked": 1003.46,
+      "usd_estimate": 7124.55,
+      "validator_operator": "injvaloper1yljq5pdnx84kkg30jfmz6ddu4eyp7twyp4z40f",
+      "validator_name": "Core ONE",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1843cyxss8nu5llheeyugh659g0x2agcarddvvs",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 1000.5,
+      "usd_estimate": 7103.55,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1xxumahjydszpka7ftykzwndx0ahty3vk8l6z50",
+      "address_type": "inj1",
+      "label": "Top delegator to Core ONE",
+      "category": "delegator_whale",
+      "inj_staked": 1000.0,
+      "usd_estimate": 7100.0,
+      "validator_operator": "injvaloper1yljq5pdnx84kkg30jfmz6ddu4eyp7twyp4z40f",
+      "validator_name": "Core ONE",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1r24jgx0zx4p9069yspec6ys7d88m5ltax4q5sw",
+      "address_type": "inj1",
+      "label": "Top delegator to Nansen | Stake to Stack Points",
+      "category": "delegator_whale",
+      "inj_staked": 1000.0,
+      "usd_estimate": 7100.0,
+      "validator_operator": "injvaloper1nm48eujr28u3htqrjumfwhytn63rmca2prtklt",
+      "validator_name": "Nansen | Stake to Stack Points",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj19w7rnv2usvrh8lpl855n9z44fkymnx6kjcahmw",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 1000.0,
+      "usd_estimate": 7100.0,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj17rret8gnvpuantfrmxu3zcc9qxgph9nx0u8szc",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 1000.0,
+      "usd_estimate": 7100.0,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qyc3h27f0qfu5vf2lpd3x9sh0pmctdwx6jae2c",
+      "address_type": "inj1",
+      "label": "Top delegator to  AutoStake \ud83d\udee1\ufe0f Slash Protected",
+      "category": "delegator_whale",
+      "inj_staked": 999.99,
+      "usd_estimate": 7099.93,
+      "validator_operator": "injvaloper1acgud5qpn3frwzjrayqcdsdr9vkl3p6hrz34ts",
+      "validator_name": " AutoStake \ud83d\udee1\ufe0f Slash Protected",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj16znvquy6acg2q4aavq6qwpjclgqdeuc4qylkjr",
+      "address_type": "inj1",
+      "label": "Top delegator to Deutsche Telekom",
+      "category": "delegator_whale",
+      "inj_staked": 998.8,
+      "usd_estimate": 7091.48,
+      "validator_operator": "injvaloper1nngrhnm65wm8pu7wkah6hfs3vpd0xw463ydd65",
+      "validator_name": "Deutsche Telekom",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qrj35jzez2e8q0drx4ajp75xgs6dfxe324fcq4",
+      "address_type": "inj1",
+      "label": "Top delegator to Everstake",
+      "category": "delegator_whale",
+      "inj_staked": 985.61,
+      "usd_estimate": 6997.8,
+      "validator_operator": "injvaloper134dct56cq5v7uerxcy2cn4m06mqf4dxrlgpp24",
+      "validator_name": "Everstake",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qr3xkeyu8m680jvwxhc4006xsl006pw06sdfex",
+      "address_type": "inj1",
+      "label": "Top delegator to Informal Systems",
+      "category": "delegator_whale",
+      "inj_staked": 981.9,
+      "usd_estimate": 6971.49,
+      "validator_operator": "injvaloper10xhy8xurfwts9ckjkq0ga92mrjz9txyygymqzp",
+      "validator_name": "Informal Systems",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1fyn70ch2yxp6c6pyduznppcvhucy9lx2ea2jwr",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 960.37,
+      "usd_estimate": 6818.59,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qg32fjtzq6h0agutnt6us6fdpcsdzrr4m6ypyq",
+      "address_type": "inj1",
+      "label": "Top delegator to Allnodes",
+      "category": "delegator_whale",
+      "inj_staked": 946.23,
+      "usd_estimate": 6718.23,
+      "validator_operator": "injvaloper14w4qu60azpz5zkw5yrcvmaxqh6xg5sny7qm6rm",
+      "validator_name": "Allnodes",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1r5370829pkymeakutter5uv8pcqh25crh3cczy",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 888.89,
+      "usd_estimate": 6311.11,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qxsjdphtgy7ze7zmsp9t2h0md2jzzzq93z7s47",
+      "address_type": "inj1",
+      "label": "Top delegator to SCV-Security",
+      "category": "delegator_whale",
+      "inj_staked": 843.27,
+      "usd_estimate": 5987.19,
+      "validator_operator": "injvaloper19a77dzm2lrxt2gehqca3nyzq077kq7qsgvmrp4",
+      "validator_name": "SCV-Security",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj10j8cf0rqvtyfwjm9ay9gr8uh5dkchj2rj6pgfq",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 840.0,
+      "usd_estimate": 5964.0,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qacp3gtnzlvdt4mp4j7z6vlr9527hwgkq3m4ke",
+      "address_type": "inj1",
+      "label": "Top delegator to Citadel.one",
+      "category": "delegator_whale",
+      "inj_staked": 839.05,
+      "usd_estimate": 5957.25,
+      "validator_operator": "injvaloper1hsxaln75wjs033t3spd8a0gawl4jvxawn6v849",
+      "validator_name": "Citadel.one",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q0cr2wj2znghvlaum75aaq0pzmup4693c7slth",
+      "address_type": "inj1",
+      "label": "Top delegator to Citadel.one",
+      "category": "delegator_whale",
+      "inj_staked": 820.91,
+      "usd_estimate": 5828.46,
+      "validator_operator": "injvaloper1hsxaln75wjs033t3spd8a0gawl4jvxawn6v849",
+      "validator_name": "Citadel.one",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj14sj0r6avyvwrpz4nrdw2cgjza2rqtjthyr7427",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 765.18,
+      "usd_estimate": 5432.76,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qfsm8xv76relec4fy60y3vasctm994evznvptz",
+      "address_type": "inj1",
+      "label": "Top delegator to Solva (CryptoCrew)",
+      "category": "delegator_whale",
+      "inj_staked": 700.0,
+      "usd_estimate": 4970.0,
+      "validator_operator": "injvaloper1nq37nq79w2j76xj8qhjzcn6vh0wlx0qk2r7zm6",
+      "validator_name": "Solva (CryptoCrew)",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qwqk9d0dcrt7jkahpsqfeymjukvj6qmcdqdc4j",
+      "address_type": "inj1",
+      "label": "Top delegator to Keplr",
+      "category": "delegator_whale",
+      "inj_staked": 597.5,
+      "usd_estimate": 4242.25,
+      "validator_operator": "injvaloper1845wspsvm3z95a2zycz3t49gn7celq48dlyscc",
+      "validator_name": "Keplr",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1zchgek56ceh8jp6a0v4ljflvjz9utw7snmafsz",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 579.0,
+      "usd_estimate": 4110.9,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1prc99kyv28m8q6ap6gdpkfuw76sv6cksk7alen",
+      "address_type": "inj1",
+      "label": "Top delegator to Smart Stake",
+      "category": "delegator_whale",
+      "inj_staked": 563.0,
+      "usd_estimate": 3997.3,
+      "validator_operator": "injvaloper1xwsnq88kc8wcrp34qenxf3dvhl5n02yj93u755",
+      "validator_name": "Smart Stake",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qc9dqcwyxxpd475ff2czqnyrr6c2d3zlxg2ldt",
+      "address_type": "inj1",
+      "label": "Top delegator to Citadel.one",
+      "category": "delegator_whale",
+      "inj_staked": 555.0,
+      "usd_estimate": 3940.5,
+      "validator_operator": "injvaloper1hsxaln75wjs033t3spd8a0gawl4jvxawn6v849",
+      "validator_name": "Citadel.one",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qt4h7l40tkuv9gdr3dtq9dacmhht4wtvhcaqat",
+      "address_type": "inj1",
+      "label": "Top delegator to HighStakes.ch | Daily Airdrops",
+      "category": "delegator_whale",
+      "inj_staked": 538.83,
+      "usd_estimate": 3825.7,
+      "validator_operator": "injvaloper1f2kdg34689x93cvw2y59z7y46dvz2fk8lhddfz",
+      "validator_name": "HighStakes.ch | Daily Airdrops",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q3tlp0etdsxdnth2957aqzet3nnjf3nz7e5j03",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation 2",
+      "category": "delegator_whale",
+      "inj_staked": 534.98,
+      "usd_estimate": 3798.37,
+      "validator_operator": "injvaloper13v0sulppc8pgtk4907p3vaqgq54vyl9yqmf7av",
+      "validator_name": "Injective Foundation 2",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qwn3jk9wpnuqg78mdvtgp7pzszlwp5kkctrpaq",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 534.0,
+      "usd_estimate": 3791.36,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qwqqr7stahq4kne3mcw88drtqd5exn30wmlzzs",
+      "address_type": "inj1",
+      "label": "Top delegator to Citadel.one",
+      "category": "delegator_whale",
+      "inj_staked": 517.97,
+      "usd_estimate": 3677.59,
+      "validator_operator": "injvaloper1hsxaln75wjs033t3spd8a0gawl4jvxawn6v849",
+      "validator_name": "Citadel.one",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1ps4ya02dgylt3e9kt5awgn9e2u4srvxf93yxaz",
+      "address_type": "inj1",
+      "label": "Top delegator to Smart Stake",
+      "category": "delegator_whale",
+      "inj_staked": 513.61,
+      "usd_estimate": 3646.62,
+      "validator_operator": "injvaloper1xwsnq88kc8wcrp34qenxf3dvhl5n02yj93u755",
+      "validator_name": "Smart Stake",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1fwf42gqxknxkn09q4ucn8q5xurgwtmuy9u26wt",
+      "address_type": "inj1",
+      "label": "Top delegator to Republic",
+      "category": "delegator_whale",
+      "inj_staked": 509.58,
+      "usd_estimate": 3617.98,
+      "validator_operator": "injvaloper1nxq05qdle8w5gm6fagda56euwt4rgvv4ktddcc",
+      "validator_name": "Republic",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qzul8ytvx8zgtqr3gdvnfr35xh7cm0uwlvwqfz",
+      "address_type": "inj1",
+      "label": "Top delegator to Injective Foundation 2",
+      "category": "delegator_whale",
+      "inj_staked": 509.09,
+      "usd_estimate": 3614.51,
+      "validator_operator": "injvaloper13v0sulppc8pgtk4907p3vaqgq54vyl9yqmf7av",
+      "validator_name": "Injective Foundation 2",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1q0vnm22h5hl3mfj6xyy0y2gacc8q45eac3l0g0",
+      "address_type": "inj1",
+      "label": "Top delegator to Keplr",
+      "category": "delegator_whale",
+      "inj_staked": 504.22,
+      "usd_estimate": 3579.96,
+      "validator_operator": "injvaloper1845wspsvm3z95a2zycz3t49gn7celq48dlyscc",
+      "validator_name": "Keplr",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qfxqdrkq6mpqajymdf8mu8vdpgcuywghmzj8vy",
+      "address_type": "inj1",
+      "label": "Top delegator to Citadel.one",
+      "category": "delegator_whale",
+      "inj_staked": 502.0,
+      "usd_estimate": 3564.2,
+      "validator_operator": "injvaloper1hsxaln75wjs033t3spd8a0gawl4jvxawn6v849",
+      "validator_name": "Citadel.one",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1wr462t3qnwj43yjpla4wjlamv7xdq04r6z2k34",
+      "address_type": "inj1",
+      "label": "Top delegator to KoreaUniversity BRI",
+      "category": "delegator_whale",
+      "inj_staked": 500.53,
+      "usd_estimate": 3553.74,
+      "validator_operator": "injvaloper1yc8kjs50gkr56hf7hw7uj7tm8u5qdukwx8ge07",
+      "validator_name": "KoreaUniversity BRI",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qx7u8x8589mgc6q5f5n2ehyjmxw9zxjamk9t5v",
+      "address_type": "inj1",
+      "label": "Top delegator to Figment",
+      "category": "delegator_whale",
+      "inj_staked": 500.0,
+      "usd_estimate": 3550.0,
+      "validator_operator": "injvaloper1g4d6dmvnpg7w7yugy6kplndp7jpfmf3krtschp",
+      "validator_name": "Figment",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1pem9tjvql4zjy32hlp30epz77x5sjuy6qcrck2",
+      "address_type": "inj1",
+      "label": "Top delegator to FalconX",
+      "category": "delegator_whale",
+      "inj_staked": 500.0,
+      "usd_estimate": 3550.0,
+      "validator_operator": "injvaloper1da0shwz2mcup5rxkykquc9a7mh4s2hkeah9wuc",
+      "validator_name": "FalconX",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj13st9hu6jwas89nmgplqkqvfgad58m9394kaq5f",
+      "address_type": "inj1",
+      "label": "Top delegator to FalconX",
+      "category": "delegator_whale",
+      "inj_staked": 500.0,
+      "usd_estimate": 3550.0,
+      "validator_operator": "injvaloper1da0shwz2mcup5rxkykquc9a7mh4s2hkeah9wuc",
+      "validator_name": "FalconX",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1ysyr7gavlhdn3dzfrp5deresqhzsxzt2l0hq2k",
+      "address_type": "inj1",
+      "label": "Top delegator to Core ONE",
+      "category": "delegator_whale",
+      "inj_staked": 500.0,
+      "usd_estimate": 3550.0,
+      "validator_operator": "injvaloper1yljq5pdnx84kkg30jfmz6ddu4eyp7twyp4z40f",
+      "validator_name": "Core ONE",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1qwx0xsntxf5kjxu3cul8fectdy8zd664zzhr3f",
+      "address_type": "inj1",
+      "label": "Top delegator to Helios Staking",
+      "category": "delegator_whale",
+      "inj_staked": 500.0,
+      "usd_estimate": 3550.0,
+      "validator_operator": "injvaloper1ffsdugrhfzdyxltjve8v68n6aazyc6p97uhfn0",
+      "validator_name": "Helios Staking",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj1x2vl7tlkvcsdg37usaluugg6c58m3xl3qpraq6",
+      "address_type": "inj1",
+      "label": "Top delegator to Dynamo DeFi",
+      "category": "delegator_whale",
+      "inj_staked": 500.0,
+      "usd_estimate": 3550.0,
+      "validator_operator": "injvaloper17mudupc8qlwpnegqwulz6ajlkhsfta6zg2wg55",
+      "validator_name": "Dynamo DeFi",
+      "source": "injective_lcd_delegations"
+    },
+    {
+      "address": "inj146szu6alq9r5l8fgw97sml7mn9vjrng8wdsatc",
+      "address_type": "inj1",
+      "label": "Active on-chain transfer wallet",
+      "category": "labeled",
+      "inj_balance": 0.0,
+      "usd_estimate": 0.0,
+      "source": "public_labels_and_lcd"
+    },
+    {
+      "address": "inj14au322k9munkmx5wrchz9q30juf5wjgz2cfqku",
+      "address_type": "inj1",
+      "label": "Injective docs reference account",
+      "category": "labeled",
+      "inj_balance": 0.0,
+      "usd_estimate": 0.0,
+      "source": "public_labels_and_lcd"
+    },
+    {
+      "address": "0xcff2d6bf21e6835a144ef668809adec4b4e9c395",
+      "address_type": "erc20",
+      "label": "Top INJ ERC-20 holder (~84% supply)",
+      "category": "eth_bridged",
+      "note": "Ethereum bridged INJ holder; map to native inj1 via bridge if needed",
+      "source": "coincarp_coinlore_richlist"
+    },
+    {
+      "address": "0xf955c57f9ea9dc8781965feae0b6a2ace2bad6f3",
+      "address_type": "erc20",
+      "label": "Large INJ ERC-20 holder",
+      "category": "eth_bridged",
+      "note": "Ethereum bridged INJ holder; map to native inj1 via bridge if needed",
+      "source": "coincarp_coinlore_richlist"
+    },
+    {
+      "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+      "address_type": "erc20",
+      "label": "Large INJ ERC-20 holder",
+      "category": "eth_bridged",
+      "note": "Ethereum bridged INJ holder; map to native inj1 via bridge if needed",
+      "source": "coincarp_coinlore_richlist"
+    },
+    {
+      "address": "0xd5e2137ef3a3e4d36a62ecd66fa415da19e5f2ea",
+      "address_type": "erc20",
+      "label": "Large INJ ERC-20 holder",
+      "category": "eth_bridged",
+      "note": "Ethereum bridged INJ holder; map to native inj1 via bridge if needed",
+      "source": "coincarp_coinlore_richlist"
+    },
+    {
+      "address": "0x5ff1ba4666cbcdb5424768cff5d973a81089634b",
+      "address_type": "erc20",
+      "label": "Large INJ ERC-20 holder",
+      "category": "eth_bridged",
+      "note": "Ethereum bridged INJ holder; map to native inj1 via bridge if needed",
+      "source": "coincarp_coinlore_richlist"
+    },
+    {
+      "address": "0xafcd96e580138cfa2332c632e66308eacd45c5da",
+      "address_type": "erc20",
+      "label": "Large INJ ERC-20 holder",
+      "category": "eth_bridged",
+      "note": "Ethereum bridged INJ holder; map to native inj1 via bridge if needed",
+      "source": "coincarp_coinlore_richlist"
+    }
+  ]
+}
