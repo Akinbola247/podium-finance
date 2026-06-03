@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "title": "Injective active Helix traders (inj1)",
+    "generated_at": "2026-06-03T10:24:10.208615+00:00",
+    "network": "injective-1 mainnet",
+    "notes": [
+      "Discovered from recent exchange txs on Injective explorer (not staker/delegator list).",
+      "Use import-active-traders to add to watchlist for multi-asset perp/spot activity."
+    ],
+    "counts": {
+      "total": 31
+    }
+  },
+  "traders": [
+    {
+      "address": "inj1jddhqk6egwcwrwzev5wjeneht0ykmlwhcehc4z",
+      "label": "Active Helix trader (HYPE, PUMP, ZEC, ARB)",
+      "category": "active_trader",
+      "exchange_events_sampled": 125,
+      "volume_usd_sampled": 126574441.08,
+      "assets_seen": {
+        "HYPE": 11,
+        "PUMP": 11,
+        "ZEC": 8,
+        "ARB": 6,
+        "OP": 14,
+        "SOL": 1,
+        "WIF": 8,
+        "LTC": 5,
+        "TAO": 6,
+        "AAVE": 9,
+        "APT": 11,
+        "SEI": 5,
+        "XMR": 2,
+        "TIA": 3,
+        "BNB": 3,
+        "SUI": 3,
+        "AVAX": 5,
+        "DOGE": 1,
+        "LINK": 4,
+        "PEPE": 2,
+        "TRUMP": 4,
+        "BTC": 3
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj14sph79aemnd0jsmgx0kpfl2tsutjfjaxwjf5x4",
+      "label": "Active Helix trader (HYPE, PUMP, SEI, ARB)",
+      "category": "active_trader",
+      "exchange_events_sampled": 33,
+      "volume_usd_sampled": 10673913.72,
+      "assets_seen": {
+        "HYPE": 10,
+        "PUMP": 3,
+        "SEI": 3,
+        "ARB": 5,
+        "SUI": 3,
+        "AVAX": 2,
+        "AAVE": 2,
+        "APT": 2,
+        "ZEC": 1,
+        "LINK": 1,
+        "TON": 1
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj14k7wgey85pt226ugr9sq4h2ya774n82hzy26nf",
+      "label": "Active Helix trader (HYPE, PUMP, SEI, ARB)",
+      "category": "active_trader",
+      "exchange_events_sampled": 33,
+      "volume_usd_sampled": 10673913.72,
+      "assets_seen": {
+        "HYPE": 10,
+        "PUMP": 3,
+        "SEI": 3,
+        "ARB": 5,
+        "SUI": 3,
+        "AVAX": 2,
+        "AAVE": 2,
+        "APT": 2,
+        "ZEC": 1,
+        "LINK": 1,
+        "TON": 1
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1uhcg420m404nuyaw0zg22d9dy4q65n5n5uqmep",
+      "label": "Active Helix trader (USDT, NVDA, BTC, ETH)",
+      "category": "active_trader",
+      "exchange_events_sampled": 24,
+      "volume_usd_sampled": 60017757.28,
+      "assets_seen": {
+        "INJ": 17,
+        "USDT": 6,
+        "NVDA": 1,
+        "BTC": 8,
+        "ETH": 3,
+        "COIN": 2
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1exyaj8xflhqvrs5x30lxms4egya4v527tzu2xq",
+      "label": "Active Helix trader (USDT, NVDA, BTC, ETH)",
+      "category": "active_trader",
+      "exchange_events_sampled": 24,
+      "volume_usd_sampled": 60017757.28,
+      "assets_seen": {
+        "INJ": 17,
+        "USDT": 6,
+        "NVDA": 1,
+        "BTC": 8,
+        "ETH": 3,
+        "COIN": 2
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1x6f40tll93pee46uz0ym8jfwu5yahmkcxkmzwv",
+      "label": "Active Helix trader (ETH, BTC, USDT)",
+      "category": "active_trader",
+      "exchange_events_sampled": 25,
+      "volume_usd_sampled": 2853423.08,
+      "assets_seen": {
+        "ETH": 13,
+        "BTC": 12,
+        "INJ": 6,
+        "USDT": 3
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1w587jqdxpygatpl8jt6j74g8hh36tw5vmecuek",
+      "label": "Active Helix trader (ETH, BTC, USDT)",
+      "category": "active_trader",
+      "exchange_events_sampled": 25,
+      "volume_usd_sampled": 2853423.08,
+      "assets_seen": {
+        "ETH": 13,
+        "BTC": 12,
+        "INJ": 6,
+        "USDT": 3
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1hwkfye2mzfhef4sdnumj0k43sw6ypr4cg8sm73",
+      "label": "Active Helix trader (LINK, AAVE, TAO)",
+      "category": "active_trader",
+      "exchange_events_sampled": 14,
+      "volume_usd_sampled": 5879905.4,
+      "assets_seen": {
+        "LINK": 4,
+        "AAVE": 2,
+        "TAO": 8
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1d46qg9rvn94fve7lnvsx7hw2w7t8w3lvlqavgw",
+      "label": "Active Helix trader (LINK, AAVE, TAO)",
+      "category": "active_trader",
+      "exchange_events_sampled": 14,
+      "volume_usd_sampled": 5879905.4,
+      "assets_seen": {
+        "LINK": 4,
+        "AAVE": 2,
+        "TAO": 8
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1swc3kkwu4lg2auhuj2un8tfe8f5hjgu2jrx797",
+      "label": "Active Helix trader (OP)",
+      "category": "active_trader",
+      "exchange_events_sampled": 14,
+      "volume_usd_sampled": 9077.0,
+      "assets_seen": {
+        "OP": 14
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1te6tzqlyy4fr0a57ahmuhz3hw0anqd4h9qqx5n",
+      "label": "Active Helix trader (HYPE)",
+      "category": "active_trader",
+      "exchange_events_sampled": 11,
+      "volume_usd_sampled": 19016058.42,
+      "assets_seen": {
+        "HYPE": 11
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1wf6av80wmuq9kgf2wkse6jsygdkhcxgxcc5arr",
+      "label": "Active Helix trader (PUMP)",
+      "category": "active_trader",
+      "exchange_events_sampled": 11,
+      "volume_usd_sampled": 19349.0,
+      "assets_seen": {
+        "PUMP": 11
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1zd3687t2n4dyam888r2l2qn4l0pt285f02k3c2",
+      "label": "Active Helix trader (APT)",
+      "category": "active_trader",
+      "exchange_events_sampled": 11,
+      "volume_usd_sampled": 6132.1,
+      "assets_seen": {
+        "APT": 11
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1u5f96ef3jgz6dsh6s33s4gy3ynw28vhpqz32jz",
+      "label": "Active Helix trader (AAVE)",
+      "category": "active_trader",
+      "exchange_events_sampled": 9,
+      "volume_usd_sampled": 18805497.5,
+      "assets_seen": {
+        "AAVE": 9
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj17qj4fk54z63gsw3vdq4qwyz40y9ue5k9anfuxh",
+      "label": "Active Helix trader (ZEC)",
+      "category": "active_trader",
+      "exchange_events_sampled": 8,
+      "volume_usd_sampled": 19600757.92,
+      "assets_seen": {
+        "ZEC": 8
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1c6qqtqqmxhanuda004vp4vxv6ajgxz294vtash",
+      "label": "Active Helix trader (WIF)",
+      "category": "active_trader",
+      "exchange_events_sampled": 8,
+      "volume_usd_sampled": 4105.2,
+      "assets_seen": {
+        "WIF": 8
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1t25uu270ce2k4pmzhywt2ek6pqcpx54an645t2",
+      "label": "Active Helix trader (TAO)",
+      "category": "active_trader",
+      "exchange_events_sampled": 6,
+      "volume_usd_sampled": 23698188.42,
+      "assets_seen": {
+        "TAO": 6
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj17v6mz3lhjda94xdczuaw9ex78w874v8rerfu8j",
+      "label": "Active Helix trader (ARB)",
+      "category": "active_trader",
+      "exchange_events_sampled": 6,
+      "volume_usd_sampled": 3542.7,
+      "assets_seen": {
+        "ARB": 6
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1fpx3qqujkugvqw5ksamrs20dsau995xfhwsjpa",
+      "label": "Active Helix trader (AVAX)",
+      "category": "active_trader",
+      "exchange_events_sampled": 5,
+      "volume_usd_sampled": 6256500.0,
+      "assets_seen": {
+        "AVAX": 5
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1m3rc5lkhgyx30pskve47xx6nd2g4jkva5t37c3",
+      "label": "Active Helix trader (LTC)",
+      "category": "active_trader",
+      "exchange_events_sampled": 5,
+      "volume_usd_sampled": 2421600.0,
+      "assets_seen": {
+        "LTC": 5
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1yfx80g5ul4zzj5specze8w8tnr7yha83985rja",
+      "label": "Active Helix trader (SEI)",
+      "category": "active_trader",
+      "exchange_events_sampled": 5,
+      "volume_usd_sampled": 3587.07,
+      "assets_seen": {
+        "SEI": 5
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1sk9mmsy0ww85v5a4t84ftqvgl79pptfn84lc3j",
+      "label": "Active Helix trader (TRUMP)",
+      "category": "active_trader",
+      "exchange_events_sampled": 4,
+      "volume_usd_sampled": 19769050.0,
+      "assets_seen": {
+        "TRUMP": 4
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1fmtpjljrz66l48ukcvvpnqsvgtyqlh844felgm",
+      "label": "Active Helix trader (LINK)",
+      "category": "active_trader",
+      "exchange_events_sampled": 4,
+      "volume_usd_sampled": 6006000.0,
+      "assets_seen": {
+        "LINK": 4
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1cppsmr07k9sv8c7yhqddp57qf69jnpydmjjg55",
+      "label": "Active Helix trader (BNB)",
+      "category": "active_trader",
+      "exchange_events_sampled": 3,
+      "volume_usd_sampled": 4840350.0,
+      "assets_seen": {
+        "BNB": 3
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1suhs560934cvz0xdkhjff0zkdvveqjgpmuaevf",
+      "label": "Active Helix trader (BTC)",
+      "category": "active_trader",
+      "exchange_events_sampled": 3,
+      "volume_usd_sampled": 2087963.49,
+      "assets_seen": {
+        "BTC": 3
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1ecuh9pd8r9an34c75qs7556g2fds60wm32z0xx",
+      "label": "Active Helix trader (SUI)",
+      "category": "active_trader",
+      "exchange_events_sampled": 3,
+      "volume_usd_sampled": 5320.59,
+      "assets_seen": {
+        "SUI": 3
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj13rqjnfdlwqqkgfszzmdd7fjl8qwguf0n95jcpp",
+      "label": "Active Helix trader (TIA)",
+      "category": "active_trader",
+      "exchange_events_sampled": 3,
+      "volume_usd_sampled": 4217.64,
+      "assets_seen": {
+        "TIA": 3
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj17psdthys834uwa9jvd5j8fn5j8c9smxe3jgxnd",
+      "label": "Active Helix trader (XMR)",
+      "category": "active_trader",
+      "exchange_events_sampled": 2,
+      "volume_usd_sampled": 1361960.0,
+      "assets_seen": {
+        "XMR": 2
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj156ye42y5w8z5lf77pgxdc366w3v2v6cvf74wdz",
+      "label": "Active Helix trader (PEPE)",
+      "category": "active_trader",
+      "exchange_events_sampled": 2,
+      "volume_usd_sampled": 6217.08,
+      "assets_seen": {
+        "PEPE": 2
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj12mrnqusf4uedzk9uc2cuwxvz6ne08t208c72jm",
+      "label": "Active Helix trader (SOL)",
+      "category": "active_trader",
+      "exchange_events_sampled": 1,
+      "volume_usd_sampled": 2647550.95,
+      "assets_seen": {
+        "SOL": 1
+      },
+      "source": "podium_discover_active_traders"
+    },
+    {
+      "address": "inj1ka6eqvdshh8x48em262c3j6ydp7mhw9fgtem32",
+      "label": "Active Helix trader (DOGE)",
+      "category": "active_trader",
+      "exchange_events_sampled": 1,
+      "volume_usd_sampled": 1416.0,
+      "assets_seen": {
+        "DOGE": 1
+      },
+      "source": "podium_discover_active_traders"
+    }
+  ]
+}
