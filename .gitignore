@@ -61,3 +61,5 @@ temp/
 
 # Render / local deploy artifacts (optional local only)
 .render/
+
+./data
