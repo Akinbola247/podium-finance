@@ -6,8 +6,10 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+!.env.production
 backend/.env
 frontend/.env
+frontend/.env.local
 *.pem
 *.key
 

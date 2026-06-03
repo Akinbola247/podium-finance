@@ -3,7 +3,7 @@
 import { FormEvent, useState } from "react";
 import { WhaleDiscoveryPanel } from "./whale-discovery-panel";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000";
+import { API_BASE } from "../lib/api";
 
 export function WatchlistForm({ onAdded }: { onAdded: () => void }) {
   const [wallet_address, setAddress] = useState("");

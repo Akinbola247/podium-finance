@@ -44,8 +44,6 @@ services:
     startCommand: npm start
     envVars:
       - key: NEXT_PUBLIC_API_BASE
-        fromService:
-          type: web
-          name: podium-api
-          envVarKey: RENDER_EXTERNAL_URL
-      # Optional: omit NEXT_PUBLIC_WS_BASE — frontend derives wss:// from API_BASE
+        value: https://podium-finance.onrender.com
+      - key: NEXT_PUBLIC_WS_BASE
+        value: wss://podium-finance.onrender.com
