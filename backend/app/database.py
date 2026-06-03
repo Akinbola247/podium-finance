@@ -24,29 +24,27 @@ def _sqlite_filesystem_path(url: str) -> Path | None:
 
 def _ensure_sqlite_directory(url: str) -> str:
     """
-    SQLite will not create parent directories (e.g. /var/data on Render).
-    Create them before connecting, or fall back to cwd-local DB.
+    Ensure SQLite parent dir exists and is writable.
+    On Render, /var/data only exists when a persistent disk is mounted — do not mkdir it.
     """
     db_path = _sqlite_filesystem_path(url)
-    if db_path is None:
-        return url
-
-    if not db_path.is_absolute():
+    if db_path is None or not db_path.is_absolute():
         return url
 
     parent = db_path.parent
+    if parent.exists() and os.access(parent, os.W_OK):
+        return url
+
     try:
         parent.mkdir(parents=True, exist_ok=True)
-        return url
+        if os.access(parent, os.W_OK):
+            return url
     except OSError as exc:
-        fallback = os.getenv("SQLITE_FALLBACK_URL", "sqlite:///./podium.db")
-        logger.warning(
-            "Cannot create SQLite directory %s (%s). Using fallback %s",
-            parent,
-            exc,
-            fallback,
-        )
-        return fallback
+        logger.warning("Cannot use SQLite path %s (%s)", parent, exc)
+
+    fallback = os.getenv("SQLITE_FALLBACK_URL", "sqlite:///./podium.db")
+    logger.warning("Using SQLite fallback %s", fallback)
+    return fallback
 
 
 def _resolve_database_url() -> str:

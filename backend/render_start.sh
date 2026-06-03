@@ -5,10 +5,15 @@ cd "$(dirname "$0")"
 
 pip install -r requirements.txt
 
-# Render persistent disk mounts at /var/data — SQLite cannot create this path itself.
+# /var/data only exists when a Render persistent disk is mounted there — never mkdir it.
 if [[ "${DATABASE_URL:-}" == *"/var/data/"* ]]; then
-  mkdir -p /var/data
-  echo "Using SQLite at /var/data (disk mount required on Render)"
+  if [[ -d /var/data ]] && [[ -w /var/data ]]; then
+    echo "SQLite on Render persistent disk: ${DATABASE_URL}"
+  else
+    echo "WARN: No writable disk at /var/data — using ./podium.db"
+    echo "      Add a Render disk (mount path /var/data) to persist data across deploys."
+    export DATABASE_URL="sqlite:///./podium.db"
+  fi
 fi
 
 python -m worker.stream_worker &
