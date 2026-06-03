@@ -241,7 +241,15 @@ Open http://localhost:3000 · API docs http://localhost:8000/docs
 
 ---
 
-## Docker Compose
+## Deploy to production (Render.com)
+
+See **[docs/DEPLOY_RENDER.md](docs/DEPLOY_RENDER.md)** for step-by-step hosting on Render (Redis, API + worker, Next.js frontend, persistent SQLite disk, env vars, and troubleshooting).
+
+Quick path: connect repo → **Blueprint** → apply root `render.yaml` → set `OPENAI_API_KEY` if needed → add wallets via UI.
+
+---
+
+## Docker Compose (local)
 
 ```bash
 docker compose up

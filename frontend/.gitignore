@@ -1,0 +1,7 @@
+# See repo root .gitignore — kept for tools that only read this directory
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+out/

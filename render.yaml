@@ -1,0 +1,51 @@
+# Render Blueprint — Podium Finance
+# Dashboard: New → Blueprint → connect repo
+# After deploy: confirm persistent disk on podium-api and rebuild frontend if API URL differs.
+
+services:
+  - type: redis
+    name: podium-redis
+    plan: starter
+    ipAllowList: []
+
+  - type: web
+    name: podium-api
+    runtime: python
+    plan: starter
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: chmod +x render_start.sh && ./render_start.sh
+    healthCheckPath: /health
+    disk:
+      name: podium-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:////var/data/podium.db
+      - key: INJECTIVE_EXPLORER_URL
+        value: https://sentry.exchange.grpc-web.injective.network/api/explorer/v1
+      - key: REDIS_ALERTS_CHANNEL
+        value: podium:live_alerts
+      - key: POLL_INTERVAL_SECONDS
+        value: "12"
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: podium-redis
+          property: connectionString
+
+  - type: web
+    name: podium-web
+    runtime: node
+    plan: starter
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NEXT_PUBLIC_API_BASE
+        fromService:
+          type: web
+          name: podium-api
+          envVarKey: RENDER_EXTERNAL_URL
+      # Optional: omit NEXT_PUBLIC_WS_BASE — frontend derives wss:// from API_BASE
