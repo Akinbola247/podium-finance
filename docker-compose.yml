@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --save "" --appendonly no
+
+  backend:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - INJECTIVE_EXPLORER_URL=https://sentry.exchange.grpc-web.injective.network/api/explorer/v1
+    command: bash -lc "pip install -r requirements.txt && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+
+  worker:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - INJECTIVE_EXPLORER_URL=https://sentry.exchange.grpc-web.injective.network/api/explorer/v1
+      - POLL_INTERVAL_SECONDS=12
+    command: bash -lc "pip install -r requirements.txt && python -m worker.stream_worker"
+    depends_on:
+      - redis
+      - backend
+
+  frontend:
+    image: node:20
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NEXT_PUBLIC_API_BASE=http://localhost:8000
+      - NEXT_PUBLIC_WS_BASE=ws://localhost:8000
+    command: bash -lc "npm install && npm run dev"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
